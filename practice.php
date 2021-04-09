@@ -1,34 +1,29 @@
 <?php
-
+//kadai1
 $a = 3;
 $b = 7;
 
 echo ($a + $b);
-?>
 
-<?php
-
-$array_month = [January,February,March,April,May,June,July,August,September,October,November,December];
+//kadai2
+$array_month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
 echo $array_month[7];
-?>
 
-<?php
-$hello = "Hello,";
+//kadai3
+$hello= "Hello,";
 $name = "Takuya";
 $world = "‘s world！";
 
-echo $hello . $name . $world
+echo $hello . $name . $world;
 
-?>
-
-<?php
+//kadai4
 $tech_boost = "tech";
 $tech_boost .= "boost";
 echo $tech_boost;
-?>
+echo "\n";
 
-<?php
+//kadai5
 $calendar_2018 = [
   "January" => "1月",
   "February" => "2月",
@@ -43,8 +38,7 @@ $calendar_2018 = [
   "November" => "11月",
   "December" => "12月"
 ];
-echo $calendar[December];
-?>
+echo $calendar_2018 ["December"];
 
 
 
